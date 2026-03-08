@@ -38,3 +38,13 @@ git checkout -b feature/updating-codes1
 12. Doing git pull 
 13. Stashing the changes
 git stash
+
+#14 Popping stashed changes
+
+git stash pop
+
+ 
+
+#15 merging of branches
+
+git merge feature/updating-codes
