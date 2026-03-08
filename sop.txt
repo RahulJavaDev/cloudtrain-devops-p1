@@ -17,3 +17,24 @@ git commit -m "i have add the files for starting steps"
 
 6.pushing the changes from local to remote repo
 git push -u origin main
+
+git config --global user.name "Your Name"
+
+git config --global user.email "your_email@example.com"
+
+7.
+Viewing branch
+git branch
+
+8. Creating new branch
+git branch feature/updating-codes
+
+9. Switching branch
+git checkout feaure/updating-codes
+
+11. Creating and switching to new branch
+git checkout -b feature/updating-codes1
+
+12. Doing git pull 
+13. Stashing the changes
+git stash
