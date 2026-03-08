@@ -34,3 +34,7 @@ git checkout feaure/updating-codes
 
 11. Creating and switching to new branch
 git checkout -b feature/updating-codes1
+
+12. Doing git pull 
+13. Stashing the changes
+git stash
