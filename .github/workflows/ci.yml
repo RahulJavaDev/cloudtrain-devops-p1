@@ -20,4 +20,4 @@ jobs:
 
       - name: viewing files
 
-        run: cat test-file.txt
+        run: cat test-file-1.txt
