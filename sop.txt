@@ -1,0 +1,21 @@
+echo "# cloudtrain-devops-p1" >> README.md
+1.Initialization of git repo in your folder to maintain and track code on local to repo
+git init
+
+
+2.To change name from master to main
+git branch -M main
+
+3.
+git remote add origin https://github.com/RahulJavaDev/cloudtrain-devops-p1.git
+
+4.git add test-file-1.txt
+git add .
+
+5. commiting the changes to local repo
+git commit -m "i have add the files for starting steps"
+
+git add README.md
+
+git remote add origin https://github.com/RahulJavaDev/cloudtrain-devops-p1.git
+git push -u origin main
