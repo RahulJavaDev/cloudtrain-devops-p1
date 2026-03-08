@@ -50,3 +50,55 @@ git stash pop
 #15 merging of branches
 
 git merge feature/updating-codes
+
+name: CI
+
+on: [push]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout code
+
+        uses: actions/checkout@v4
+
+      - name: Viewing files
+
+        run: ls -la
+
+      - name: viewing files
+
+        run: cat test-file.txt
+
+#16 git status will show the changes
+
+git status
+
+ 
+
+#17 git log will show the history of commits
+
+git log
+
+#16 git status will show the changes
+
+git status
+
+ 
+
+#17 git log will show the history of commits
+
+git log
+
+
+
+#18 deleting a brnach from local and pushing it to remote
+
+git branch -d feature/to-be-deleted
+
+git push origin --delete feature/to-be-deleted
