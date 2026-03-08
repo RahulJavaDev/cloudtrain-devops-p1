@@ -18,6 +18,8 @@ git commit -m "i have add the files for starting steps"
 6.pushing the changes from local to remote repo
 git push -u origin main
 
+test conflicts
+
 git config --global user.name "Your Name"
 
 git config --global user.email "your_email@example.com"
