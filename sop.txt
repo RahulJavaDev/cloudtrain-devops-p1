@@ -31,3 +31,6 @@ git branch feature/updating-codes
 
 9. Switching branch
 git checkout feaure/updating-codes
+
+11. Creating and switching to new branch
+git checkout -b feature/updating-codes1
