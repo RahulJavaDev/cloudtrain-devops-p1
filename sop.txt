@@ -15,7 +15,5 @@ git add .
 5. commiting the changes to local repo
 git commit -m "i have add the files for starting steps"
 
-git add README.md
-
-git remote add origin https://github.com/RahulJavaDev/cloudtrain-devops-p1.git
+6.pushing the changes from local to remote repo
 git push -u origin main
